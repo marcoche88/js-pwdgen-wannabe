@@ -6,7 +6,7 @@ var color = document.getElementById("color");
 var password = document.getElementById("pass");
 var numberRandom = 21;
 
-console.log(firstName, lastName, color);
+console.log(firstName, lastName, color, password);
 
 // nome utente
 
@@ -28,4 +28,4 @@ color.innerText = "Colore preferito: " + favoriteColor;
 
 // genera password
 
-password.innerText = "Password: " + userName + userSurname + favoriteColor + 21;
+password.innerText = userName + userSurname + favoriteColor + 21;

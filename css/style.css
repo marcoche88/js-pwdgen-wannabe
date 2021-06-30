@@ -3,6 +3,25 @@
     margin: 0 auto;
 }
 
+.container {
+    max-width: 900px;
+    text-align: center;
+}
+
+h3 {
+    display: inline-block;
+    width: 295px;
+    text-transform: uppercase;
+    margin: 30px 0;
+    border: 1px solid green;
+    padding: 15px;
+    border-radius: 35px;
+}
+
+h2 {
+    background-color: #d9f2d9;
+}
+
 #pass {
     text-transform: lowercase;
 }
