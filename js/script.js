@@ -24,8 +24,8 @@ lastName.innerText = "Cognome: " + userSurname;
 
 var favoriteColor = prompt("Inserisci il tuo colore preferito");
 console.log("favoriteColor: " + favoriteColor);
-color.innerText = "Colore preferito: " + favoriteColor;
+color.innerText = "Colore: " + favoriteColor;
 
 // genera password
 
-password.innerText = userName + userSurname + favoriteColor + 21;
+password.innerText = userName + userSurname + favoriteColor + numberRandom;
