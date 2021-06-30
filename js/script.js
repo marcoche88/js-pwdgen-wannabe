@@ -4,7 +4,7 @@ var firstName = document.getElementById("name");
 var lastName = document.getElementById("surname");
 var color = document.getElementById("color");
 var password = document.getElementById("pass");
-var numberRandom = 21;
+var numberRandom = "21";
 
 console.log(firstName, lastName, color, password);
 
