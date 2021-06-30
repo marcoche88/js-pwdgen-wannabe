@@ -28,4 +28,4 @@ color.innerText = "Colore: " + favoriteColor;
 
 // genera password
 
-password.innerText = userName + userSurname + favoriteColor + numberRandom;
+password.innerHTML = "<em>" + userName + userSurname + favoriteColor + numberRandom + "</em>";

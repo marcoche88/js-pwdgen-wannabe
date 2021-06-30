@@ -6,20 +6,44 @@
 .container {
     max-width: 900px;
     text-align: center;
+    font-family: sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 h3 {
-    display: inline-block;
-    width: 295px;
+    flex-basis: 30%;
     text-transform: uppercase;
-    margin: 30px 0;
+    margin-top: 30px;
+    margin-bottom: 50px;
     border: 1px solid green;
+    background-color: rgb(184, 245, 202);
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
     padding: 15px;
     border-radius: 35px;
+    position: relative;
+    top: 0;
+    transition: top 500ms linear;
+}
+
+h3:hover {
+    opacity: 70%;
+    top: -10px;
 }
 
 h2 {
     background-color: #d9f2d9;
+    flex-basis: auto;
+    color: darkgreen;
+    padding: 30px;
+    border-radius: 15px;
+    transition: 500ms linear;
+}
+
+h2:hover {
+    color: darkred;
+    background-color: #ffcccc;
 }
 
 #pass {
