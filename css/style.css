@@ -1,10 +1,12 @@
 * {
     box-sizing: border-box;
-    margin: 0 auto;
+    margin: 0;
+    padding: 0;
 }
 
 .container {
     max-width: 900px;
+    margin: 0 auto;
     text-align: center;
     font-family: sans-serif;
     display: flex;
@@ -34,7 +36,7 @@ h3:hover {
 
 h2 {
     background-color: #d9f2d9;
-    flex-basis: auto;
+    flex-grow: 1;
     color: darkgreen;
     padding: 30px;
     border-radius: 15px;
